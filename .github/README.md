@@ -6,7 +6,7 @@
 
 
     
-# YUKKI REXA
+# YUKKI ARAB
 
 <details>
 <summary><b>🚀 CONFIG VARS </b></summary>
@@ -28,7 +28,7 @@
 
 ### ʜᴇʀᴏᴋᴜ   
 - klik tombol dibawah untuk deploy via Heroku :
-<p><a href="https://dashboard.heroku.com/new?template=https://github.com/Rexashh/YukkiRexa/tree/master"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="150""/></a></p>  
+<p><a href="https://dashboard.heroku.com/new?template=https://github.com/fadhilabdat04/YukkiArab/tree/master"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="150""/></a></p>  
 
 ### ᴠᴘs
 - Upgrade & Update :
