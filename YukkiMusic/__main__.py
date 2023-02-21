@@ -40,7 +40,7 @@ async def init():
         not config.SPOTIFY_CLIENT_ID
         and not config.SPOTIFY_CLIENT_SECRET
     ):
-        LOGGER("RexaMusic").warning(
+        LOGGER("ArabMusic").warning(
             "Tidak ada Spotify Vars yang ditentukan. Bot Anda tidak akan dapat memainkan kueri spotify."
         )
     try:
@@ -65,17 +65,17 @@ async def init():
             "http://docs.evostream.com/sample_content/assets/sintel1m720p.mp4"
         )
     except NoActiveGroupCall:
-        LOGGER("RexaMusic").error(
+        LOGGER("ArabMusic").error(
             "[ERROR] - \n\nSilakan aktifkan Panggilan Suara Grup Logger Anda. Pastikan Anda tidak pernah menutup/mengakhiri panggilan suara di grup log Anda"
         )
         sys.exit()
     except:
         pass
     await Yukki.decorators()
-    LOGGER("RexaMusic").info("Bot Musik Berhasil dibuat Berikan Ucapan Terimakasih kepada Rexa :D")
+    LOGGER("ArabMusic").info("Bot Musik Berhasil dibuat Berikan Ucapan Terimakasih kepada Arab :D")
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("RexaMusic").info("Menghentikan Xa Music Bot! ")
+    LOGGER("ArabMusic").info("Menghentikan Arab Music Bot! ")
